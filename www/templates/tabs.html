@@ -1,0 +1,22 @@
+<!-- This is our tabs template -->
+<ion-tabs class="tabs-positive tabs-icon-only">
+
+  <!-- This is the first of our tabs  in the navigation
+  title for the name of the tab icon-on/off is for when tab is active and not
+  href is for linking to the page
+  -->
+
+  <ion-tab title="Todo" icon-on="ion-ios-filing" icon-off="ion-ios-filing-outline" href="#/tab/todo">
+    <!-- Tab 1 content -->
+    <!-- This is where we render the view we defined in app.js and we called 'todo' from the todo.html -->
+    <ion-nav-view name="todo"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="Profile" icon-on="ion-ios-clock" icon-off="ion-ios-clock-outline" href="#/tab/profile">
+    <!-- Tab 2 content -->
+    <ion-nav-view name="profile"></ion-nav-view>
+  </ion-tab>
+
+
+
+</ion-tabs>
